@@ -51,6 +51,7 @@ export { objectifJSON };
  * @param html - Le code HTML à analyser
  * @returns true si le test est passé, false sinon
  */
+
 export function test__1_2(html: string) {
     // Vérifier les images décoratives
     const images = html.match(/<img[^>]*>/g) || [];
